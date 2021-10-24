@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.OptionalInt;
 
 
-public class Solutions {
+public class Solution1 {
 
     /**
      * This method returns the minimum positive value of the specified array of integers
@@ -13,7 +13,7 @@ public class Solutions {
      * @param A The array param to be specified
      * @return The minimum positive value
      */
-    public int solution(int[] A) {
+    public int solution1(int[] A) {
         OptionalInt min = Arrays.stream(A).min();
         OptionalInt max = Arrays.stream(A).max();
         final int MIN_RANGE = -1000000;
